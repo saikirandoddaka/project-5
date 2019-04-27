@@ -9,7 +9,7 @@
 - common.c
 - common.h
 - messages.h
-- messages.c
+
 - Makefile
 
 2) Compiling:
