@@ -1,0 +1,28 @@
+1) Files included:
+- user.c
+- oss.c
+- osstime.c
+- osstime.h
+- queue.c
+- queue.h
+- types.h
+- common.c
+- common.h
+- messages.h
+- messages.c
+- Makefile
+
+2) Compiling:
+
+- Run "make"
+
+3) Program:
+Normal run:
+./oss
+Verbose run:
+./oss -v
+
+It detects deadlocks by performing a breadth-first search on the graph of held resources from the
+each blocked process and if it encounters a process it saw in current search then there's a loop of
+processes weaiting for each other. It terminates the first process found in this way because with
+breadth-first search it's the only one we can guarantee is a part of the loop.

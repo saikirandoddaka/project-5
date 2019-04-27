@@ -1,0 +1,954 @@
+OSS: Spawning a new Process P0 at time 0:0
+OSS: Spawning a new Process P1 at time 0:73
+OSS: Spawning a new Process P2 at time 0:544
+OSS: Spawning a new Process P3 at time 0:662
+OSS: Spawning a new Process P4 at time 0:879
+OSS: Spawning a new Process P5 at time 0:948
+OSS: Spawning a new Process P6 at time 0:1116
+OSS: Spawning a new Process P7 at time 0:1185
+OSS: Spawning a new Process P8 at time 0:1544
+OSS: Master has detected Process P2 requesting R10 at time 0:1806
+OSS: Master granting P2 request R10 at time 0:1808
+OSS: Spawning a new Process P9 at time 0:1917
+OSS: Spawning a new Process P10 at time 0:2000
+OSS: Spawning a new Process P11 at time 0:2279
+OSS: Spawning a new Process P12 at time 0:2349
+OSS: Master has detected Process P9 requesting R1 at time 0:2528
+OSS: Master granting P9 request R1 at time 0:2533
+OSS: Spawning a new Process P13 at time 0:2564
+OSS: Spawning a new Process P14 at time 0:2968
+OSS: Spawning a new Process P15 at time 0:3102
+OSS: Spawning a new Process P16 at time 0:3223
+OSS: Master has detected Process P3 requesting R1 at time 0:3240
+OSS: Blocking process P3 waiting on resource R1
+OSS: Spawning a new Process P17 at time 0:3359
+OSS: Master has detected Process P17 requesting R14 at time 0:3783
+OSS: Master granting P17 request R14 at time 0:3793
+OSS: Master has detected Process P1 requesting R15 at time 0:4232
+OSS: Master granting P1 request R15 at time 0:4237
+OSS: Master has detected Process P16 requesting R5 at time 0:4315
+OSS: Master granting P16 request R5 at time 0:4325
+OSS: Master has detected Process P12 requesting R15 at time 0:5464
+OSS: Blocking process P12 waiting on resource R15
+OSS: Master has detected Process P6 requesting R7 at time 0:5958
+OSS: Master granting P6 request R7 at time 0:5968
+OSS: Master has detected Process P0 requesting R17 at time 0:6077
+OSS: Master granting P0 request R17 at time 0:6087
+OSS: Master has detected Process P1 requesting R13 at time 0:6302
+OSS: Master granting P1 request R13 at time 0:6307
+OSS: Master has acknowledged Process P9 releasing R1 at time 0:6339
+OSS: Unblocking Process P3, and granting it Resource R1
+OSS: Master granting P3 request R1 at time 0:6380
+OSS: Master has detected Process P13 requesting R9 at time 0:6688
+OSS: Master granting P13 request R9 at time 0:6693
+OSS: Master has detected Process P14 requesting R9 at time 0:6831
+OSS: Blocking process P14 waiting on resource R9
+OSS: Master has acknowledged Process P1 releasing R13 at time 0:6910
+OSS: Master has detected Process P4 requesting R2 at time 0:7404
+OSS: Master granting P4 request R2 at time 0:7412
+OSS: Master has acknowledged Process P3 releasing R1 at time 0:7493
+OSS: Master has acknowledged Process P6 releasing R7 at time 0:7594
+OSS: Master has acknowledged Process P17 releasing R14 at time 0:8098
+OSS: Master has detected Process P6 requesting R18 at time 0:8672
+OSS: Master granting P6 request R18 at time 0:8674
+OSS: Master has detected Process P17 requesting R16 at time 0:8723
+OSS: Master granting P17 request R16 at time 0:8728
+OSS: Master has detected Process P10 requesting R6 at time 0:8936
+OSS: Master granting P10 request R6 at time 0:8939
+OSS: Master has detected Process P11 requesting R0 at time 0:8946
+OSS: Master granting P11 request R0 at time 0:8947
+OSS: Master has acknowledged Process P13 releasing R9 at time 0:8954
+OSS: Unblocking Process P14, and granting it Resource R9
+OSS: Master granting P14 request R9 at time 0:8980
+OSS: Master has detected Process P5 requesting R14 at time 0:9182
+OSS: Master granting P5 request R14 at time 0:9190
+OSS: Master has detected Process P2 requesting R4 at time 0:9300
+OSS: Master granting P2 request R4 at time 0:9309
+OSS: Master has detected Process P8 requesting R16 at time 0:9846
+OSS: Blocking process P8 waiting on resource R16
+OSS: Master has detected Process P7 requesting R4 at time 0:10447
+OSS: Blocking process P7 waiting on resource R4
+OSS: Master has acknowledged Process P11 releasing R0 at time 0:10484
+OSS: Master has acknowledged Process P17 releasing R16 at time 0:11677
+OSS: Unblocking Process P8, and granting it Resource R16
+OSS: Master granting P8 request R16 at time 0:11720
+OSS: Master has detected Process P15 requesting R14 at time 0:12987
+OSS: Blocking process P15 waiting on resource R14
+OSS: Master has acknowledged Process P0 releasing R17 at time 0:13426
+OSS: Master has detected Process P4 requesting R7 at time 0:13553
+OSS: Master granting P4 request R7 at time 0:13562
+        ns  ns  ns  ns  ns  ns  ns  s   ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  s   
+bl      R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+    P0  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P1  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   
+    P2  0   0   0   0   1   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   
+    P3  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P4  0   0   1   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   
+    P5  0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   
+    P6  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   
+4   P7  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P8  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   
+    P9  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P10 0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P11 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+15  P12 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P13 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P14 0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   
+14  P15 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P16 0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P17 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+OSS: Master has detected Process P6 requesting R17 at time 0:13576
+OSS: Master granting P6 request R17 at time 0:13577
+OSS: Master has acknowledged Process P10 releasing R6 at time 0:13590
+OSS: Master has detected Process P1 requesting R12 at time 0:13643
+OSS: Master granting P1 request R12 at time 0:13652
+OSS: Master has detected Process P16 requesting R13 at time 0:13946
+OSS: Master granting P16 request R13 at time 0:13951
+OSS: Master has acknowledged Process P14 releasing R9 at time 0:14030
+OSS: Master has detected Process P2 requesting R7 at time 0:14074
+OSS: Blocking process P2 waiting on resource R7
+OSS: Master has detected Process P3 requesting R12 at time 0:14101
+OSS: Blocking process P3 waiting on resource R12
+OSS: Master has detected Process P9 requesting R3 at time 0:14279
+OSS: Master granting P9 request R3 at time 0:14284
+OSS: Master has detected Process P8 requesting R2 at time 0:14495
+OSS: Blocking process P8 waiting on resource R2
+OSS: Master has detected Process P11 requesting R13 at time 0:14973
+OSS: Blocking process P11 waiting on resource R13
+OSS: Master has acknowledged Process P5 releasing R14 at time 0:15787
+OSS: Unblocking Process P15, and granting it Resource R14
+OSS: Master granting P15 request R14 at time 0:15819
+OSS: Master has detected Process P14 requesting R11 at time 0:16468
+OSS: Master granting P14 request R11 at time 0:16477
+OSS: Master has detected Process P10 requesting R6 at time 0:16547
+OSS: Master granting P10 request R6 at time 0:16553
+OSS: Master has acknowledged Process P1 releasing R15 at time 0:17852
+OSS: Unblocking Process P12, and granting it Resource R15
+OSS: Master granting P12 request R15 at time 0:17900
+OSS: Master has acknowledged Process P12 releasing R15 at time 0:17928
+OSS: Master has detected Process P12 requesting R13 at time 0:18034
+OSS: Blocking process P12 waiting on resource R13
+OSS: Master has detected Process P13 requesting R17 at time 0:18260
+OSS: Blocking process P13 waiting on resource R17
+OSS: Master has acknowledged Process P1 releasing R12 at time 0:19541
+OSS: Unblocking Process P3, and granting it Resource R12
+OSS: Master granting P3 request R12 at time 0:19544
+OSS: Master has acknowledged Process P3 releasing R12 at time 0:19547
+OSS: Master has detected Process P16 requesting R19 at time 0:19594
+OSS: Master granting P16 request R19 at time 0:19604
+OSS: Master has detected Process P3 requesting R9 at time 0:19662
+OSS: Master granting P3 request R9 at time 0:19671
+OSS: Master has detected Process P17 requesting R16 at time 0:20035
+OSS: Blocking process P17 waiting on resource R16
+OSS: Master has detected Process P1 requesting R4 at time 0:20580
+OSS: Blocking process P1 waiting on resource R4
+OSS: Master has acknowledged Process P6 releasing R17 at time 0:20643
+OSS: Unblocking Process P13, and granting it Resource R17
+OSS: Master granting P13 request R17 at time 0:20686
+OSS: Master has detected Process P15 requesting R4 at time 0:20896
+OSS: Blocking process P15 waiting on resource R4
+OSS: Master has detected Process P16 requesting R10 at time 0:22240
+OSS: Blocking process P16 waiting on resource R10
+OSS: Master has acknowledged Process P9 releasing R3 at time 0:22340
+OSS: Master has detected Process P0 requesting R10 at time 0:22411
+OSS: Blocking process P0 waiting on resource R10
+OSS: Master has acknowledged Process P4 releasing R2 at time 0:22552
+OSS: Unblocking Process P8, and granting it Resource R2
+OSS: Master granting P8 request R2 at time 0:22562
+OSS: Master has detected Process P8 requesting R16 at time 0:22586
+OSS: Master granting P8 request R16 at time 0:22588
+OSS: Master has detected Process P8 requesting R13 at time 0:22664
+OSS: Blocking process P8 waiting on resource R13
+OSS: Master has detected Process P14 requesting R0 at time 0:23134
+OSS: Master granting P14 request R0 at time 0:23141
+OSS: Master has detected Process P9 requesting R2 at time 0:23824
+OSS: Blocking process P9 waiting on resource R2
+OSS: Master has detected Process P5 requesting R5 at time 0:24741
+OSS: Blocking process P5 waiting on resource R5
+OSS: Master has acknowledged Process P3 releasing R9 at time 0:25378
+OSS: Master has acknowledged Process P6 releasing R18 at time 0:25583
+OSS: Master has detected Process P13 requesting R13 at time 0:25990
+OSS: Blocking process P13 waiting on resource R13
+OSS: Master has acknowledged Process P10 releasing R6 at time 0:26348
+OSS: Master has acknowledged Process P4 releasing R7 at time 0:28995
+OSS: Unblocking Process P2, and granting it Resource R7
+OSS: Master granting P2 request R7 at time 0:29037
+OSS: Master has detected Process P2 requesting R18 at time 0:29085
+OSS: Master granting P2 request R18 at time 0:29087
+OSS: Master has detected Process P2 requesting R2 at time 0:29141
+OSS: Blocking process P2 waiting on resource R2
+OSS: Master has detected Process P14 requesting R13 at time 0:30903
+OSS: Blocking process P14 waiting on resource R13
+OSS: Master has detected Process P3 requesting R3 at time 0:32042
+OSS: Master granting P3 request R3 at time 0:32046
+OSS: Master has detected Process P10 requesting R15 at time 0:33014
+OSS: Master granting P10 request R15 at time 0:33023
+OSS: Master has detected Process P3 requesting R13 at time 0:33901
+OSS: Blocking process P3 waiting on resource R13
+OSS: Master has detected Process P6 requesting R19 at time 0:34887
+OSS: Blocking process P6 waiting on resource R19
+OSS: Master has detected Process P4 requesting R17 at time 0:36299
+OSS: Blocking process P4 waiting on resource R17
+OSS: Master has acknowledged Process P10 releasing R15 at time 0:40321
+OSS: Master has detected Process P10 requesting R17 at time 0:43519
+OSS: Blocking process P10 waiting on resource R17
+OSS: Master running deadlock detection at 1:2572
+OSS: Process P2 is part of a deadlock
+OSS: Terminating process p2 at time 1:2572
+OSS: Released resources:  R4:1 R7:1 R10:1 R18:1
+OSS: Unblocking Process P15, and granting it Resource R4
+OSS: Master granting P15 request R4 at time 1:2620
+        ns  ns  ns  ns  ns  ns  ns  s   ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  s   
+bl      R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+10  P0  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+4   P1  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+2   P2  0   0   0   0   0   0   0   1   0   0   1   0   0   0   0   0   0   0   1   0   
+13  P3  0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+17  P4  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+5   P5  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+19  P6  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+4   P7  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+13  P8  0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   2   0   0   0   
+2   P9  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+17  P10 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+13  P11 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+13  P12 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+13  P13 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+13  P14 1   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   
+    P15 0   0   0   0   1   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   
+10  P16 0   0   0   0   0   1   0   0   0   0   0   0   0   1   0   0   0   0   0   1   
+16  P17 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+OSS: Unblocking Process P16, and granting it Resource R10
+OSS: Master granting P16 request R10 at time 1:2677
+OSS: Master running deadlock detection at 1:2731
+OSS: System not in deadlock
+OSS: Spawning a new Process P2 at time 1:12845
+OSS: Process P15 terminating normally at time 1:12958
+OSS: Terminating process p15 at time 1:12958
+OSS: Released resources:  R4:1 R14:1
+OSS: Unblocking Process P7, and granting it Resource R4
+OSS: Master granting P7 request R4 at time 1:13016
+OSS: Spawning a new Process P15 at time 1:13057
+OSS: Process P16 terminating normally at time 1:13085
+OSS: Terminating process p16 at time 1:13085
+OSS: Released resources:  R5:1 R10:1 R13:1 R19:1
+OSS: Unblocking Process P5, and granting it Resource R5
+OSS: Master granting P5 request R5 at time 1:13117
+OSS: Unblocking Process P0, and granting it Resource R10
+OSS: Master granting P0 request R10 at time 1:13132
+OSS: Unblocking Process P3, and granting it Resource R13
+OSS: Master granting P3 request R13 at time 1:13161
+OSS: Spawning a new Process P16 at time 1:13210
+OSS: Process P7 terminating normally at time 1:13282
+OSS: Terminating process p7 at time 1:13282
+OSS: Released resources:  R4:1
+OSS: Unblocking Process P1, and granting it Resource R4
+OSS: Master granting P1 request R4 at time 1:13313
+OSS: Spawning a new Process P7 at time 1:13355
+OSS: Process P3 terminating normally at time 1:13371
+OSS: Terminating process p3 at time 1:13371
+OSS: Released resources:  R3:1 R13:1
+OSS: Unblocking Process P8, and granting it Resource R13
+OSS: Master granting P8 request R13 at time 1:13408
+OSS: Spawning a new Process P3 at time 1:13450
+OSS: Process P0 terminating normally at time 1:13450
+OSS: Terminating process p0 at time 1:13450
+OSS: Released resources:  R10:1
+OSS: Process P1 terminating normally at time 1:13451
+OSS: Terminating process p1 at time 1:13451
+OSS: Released resources:  R4:1
+OSS: Spawning a new Process P0 at time 1:13514
+OSS: Spawning a new Process P1 at time 1:13586
+OSS: Process P5 terminating normally at time 1:13669
+OSS: Terminating process p5 at time 1:13669
+OSS: Released resources:  R5:1
+OSS: Spawning a new Process P5 at time 1:13726
+OSS: Process P8 terminating normally at time 1:14081
+OSS: Terminating process p8 at time 1:14081
+OSS: Released resources:  R2:1 R13:1 R16:2
+OSS: Unblocking Process P9, and granting it Resource R2
+OSS: Master granting P9 request R2 at time 1:14124
+OSS: Unblocking Process P11, and granting it Resource R13
+OSS: Master granting P11 request R13 at time 1:14157
+OSS: Unblocking Process P17, and granting it Resource R16
+OSS: Master granting P17 request R16 at time 1:14200
+OSS: Process P17 terminating normally at time 1:14226
+OSS: Terminating process p17 at time 1:14226
+OSS: Released resources:  R16:1
+OSS: Spawning a new Process P8 at time 1:14277
+OSS: Spawning a new Process P17 at time 1:14363
+OSS: Process P9 terminating normally at time 1:14502
+OSS: Terminating process p9 at time 1:14502
+OSS: Released resources:  R2:1
+OSS: Spawning a new Process P9 at time 1:14574
+OSS: Process P11 terminating normally at time 1:14612
+OSS: Terminating process p11 at time 1:14612
+OSS: Released resources:  R13:1
+OSS: Unblocking Process P12, and granting it Resource R13
+OSS: Master granting P12 request R13 at time 1:14659
+OSS: Spawning a new Process P11 at time 1:14740
+OSS: Master has detected Process P3 requesting R12 at time 1:14759
+OSS: Master granting P3 request R12 at time 1:14760
+OSS: Process P12 terminating normally at time 1:14789
+OSS: Terminating process p12 at time 1:14789
+OSS: Released resources:  R13:1
+OSS: Unblocking Process P13, and granting it Resource R13
+OSS: Master granting P13 request R13 at time 1:14808
+OSS: Spawning a new Process P12 at time 1:14863
+OSS: Master has detected Process P5 requesting R12 at time 1:15106
+OSS: Blocking process P5 waiting on resource R12
+OSS: Master has detected Process P0 requesting R19 at time 1:15216
+OSS: Master granting P0 request R19 at time 1:15219
+OSS: Process P13 terminating normally at time 1:15624
+OSS: Terminating process p13 at time 1:15624
+OSS: Released resources:  R13:1 R17:1
+OSS: Unblocking Process P14, and granting it Resource R13
+OSS: Master granting P14 request R13 at time 1:15681
+OSS: Unblocking Process P4, and granting it Resource R17
+OSS: Master granting P4 request R17 at time 1:15719
+OSS: Master has detected Process P15 requesting R9 at time 1:15735
+OSS: Master granting P15 request R9 at time 1:15739
+OSS: Spawning a new Process P13 at time 1:15772
+OSS: Process P4 terminating normally at time 1:15802
+OSS: Terminating process p4 at time 1:15802
+OSS: Released resources:  R17:1
+OSS: Spawning a new Process P4 at time 1:15894
+OSS: Process P14 terminating normally at time 1:16179
+OSS: Terminating process p14 at time 1:16179
+OSS: Released resources:  R0:1 R11:1 R13:1
+OSS: Spawning a new Process P14 at time 1:16256
+OSS: Master has acknowledged Process P0 releasing R19 at time 1:17084
+OSS: Unblocking Process P6, and granting it Resource R19
+OSS: Master granting P6 request R19 at time 1:17095
+OSS: Master has detected Process P14 requesting R10 at time 1:17573
+OSS: Master granting P14 request R10 at time 1:17582
+OSS: Process P6 terminating normally at time 1:17780
+OSS: Terminating process p6 at time 1:17780
+OSS: Released resources:  R19:1
+OSS: Spawning a new Process P6 at time 1:17889
+OSS: Master has detected Process P9 requesting R8 at time 1:18154
+OSS: Master granting P9 request R8 at time 1:18164
+        ns  ns  ns  ns  ns  ns  ns  s   ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  s   
+bl      R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+    P0  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P1  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P2  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P3  0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   
+    P4  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+12  P5  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P6  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P7  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P8  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P9  0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   
+17  P10 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P11 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P12 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P13 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P14 0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   
+    P15 0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   
+    P16 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P17 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+OSS: Master has detected Process P8 requesting R4 at time 1:18269
+OSS: Master granting P8 request R4 at time 1:18273
+OSS: Master has detected Process P0 requesting R17 at time 1:19351
+OSS: Master granting P0 request R17 at time 1:19357
+OSS: Master has detected Process P7 requesting R7 at time 1:19390
+OSS: Master granting P7 request R7 at time 1:19393
+OSS: Master has detected Process P16 requesting R15 at time 1:19758
+OSS: Master granting P16 request R15 at time 1:19766
+OSS: Master has detected Process P2 requesting R13 at time 1:19953
+OSS: Master granting P2 request R13 at time 1:19961
+OSS: Master has detected Process P11 requesting R15 at time 1:20246
+OSS: Blocking process P11 waiting on resource R15
+OSS: Master has detected Process P6 requesting R7 at time 1:20568
+OSS: Blocking process P6 waiting on resource R7
+OSS: Master has detected Process P12 requesting R2 at time 1:20633
+OSS: Master granting P12 request R2 at time 1:20637
+OSS: Master has detected Process P1 requesting R11 at time 1:20719
+OSS: Master granting P1 request R11 at time 1:20724
+OSS: Master has acknowledged Process P7 releasing R7 at time 1:20740
+OSS: Unblocking Process P6, and granting it Resource R7
+OSS: Master granting P6 request R7 at time 1:20775
+OSS: Master has detected Process P4 requesting R13 at time 1:20887
+OSS: Blocking process P4 waiting on resource R13
+OSS: Master has detected Process P13 requesting R10 at time 1:21314
+OSS: Blocking process P13 waiting on resource R10
+OSS: Master has detected Process P17 requesting R10 at time 1:21459
+OSS: Blocking process P17 waiting on resource R10
+OSS: Master has detected Process P3 requesting R10 at time 1:21737
+OSS: Blocking process P3 waiting on resource R10
+OSS: Master has acknowledged Process P6 releasing R7 at time 1:23166
+OSS: Master has detected Process P7 requesting R19 at time 1:23381
+OSS: Master granting P7 request R19 at time 1:23390
+OSS: Master has detected Process P15 requesting R6 at time 1:24287
+OSS: Master granting P15 request R6 at time 1:24288
+OSS: Master has acknowledged Process P14 releasing R10 at time 1:24719
+OSS: Unblocking Process P13, and granting it Resource R10
+OSS: Master granting P13 request R10 at time 1:24750
+OSS: Master has detected Process P0 requesting R10 at time 1:24862
+OSS: Blocking process P0 waiting on resource R10
+OSS: Master has detected Process P6 requesting R6 at time 1:25089
+OSS: Blocking process P6 waiting on resource R6
+OSS: Master has detected Process P16 requesting R13 at time 1:25360
+OSS: Blocking process P16 waiting on resource R13
+OSS: Master has acknowledged Process P12 releasing R2 at time 1:25565
+OSS: Master has acknowledged Process P7 releasing R19 at time 1:26326
+OSS: Master has detected Process P8 requesting R5 at time 1:26423
+OSS: Master granting P8 request R5 at time 1:26433
+OSS: Master has detected Process P9 requesting R11 at time 1:27046
+OSS: Blocking process P9 waiting on resource R11
+OSS: Master has acknowledged Process P1 releasing R11 at time 1:27189
+OSS: Unblocking Process P9, and granting it Resource R11
+OSS: Master granting P9 request R11 at time 1:27221
+OSS: Master has acknowledged Process P2 releasing R13 at time 1:27556
+OSS: Unblocking Process P16, and granting it Resource R13
+OSS: Master granting P16 request R13 at time 1:27574
+OSS: Master has detected Process P16 requesting R5 at time 1:27621
+OSS: Blocking process P16 waiting on resource R5
+OSS: Master has detected Process P13 requesting R19 at time 1:28247
+OSS: Master granting P13 request R19 at time 1:28249
+OSS: Master has detected Process P7 requesting R7 at time 1:29888
+OSS: Master granting P7 request R7 at time 1:29898
+OSS: Master has detected Process P14 requesting R16 at time 1:30162
+OSS: Master granting P14 request R16 at time 1:30171
+OSS: Master has detected Process P1 requesting R4 at time 1:31064
+OSS: Blocking process P1 waiting on resource R4
+OSS: Master has acknowledged Process P15 releasing R9 at time 1:32264
+OSS: Master has detected Process P2 requesting R13 at time 1:32709
+OSS: Blocking process P2 waiting on resource R13
+OSS: Master has acknowledged Process P15 releasing R6 at time 1:32798
+OSS: Master has acknowledged Process P14 releasing R16 at time 1:33664
+OSS: Master has acknowledged Process P9 releasing R8 at time 1:33718
+OSS: Master has detected Process P14 requesting R1 at time 1:34363
+OSS: Master granting P14 request R1 at time 1:34371
+OSS: Master has detected Process P12 requesting R11 at time 1:34733
+OSS: Blocking process P12 waiting on resource R11
+OSS: Master has acknowledged Process P14 releasing R1 at time 1:35489
+OSS: Master has detected Process P8 requesting R5 at time 1:36321
+OSS: Master granting P8 request R5 at time 1:36328
+OSS: Master has detected Process P14 requesting R15 at time 1:36345
+OSS: Blocking process P14 waiting on resource R15
+OSS: Master has acknowledged Process P9 releasing R11 at time 1:36815
+OSS: Unblocking Process P12, and granting it Resource R11
+OSS: Master granting P12 request R11 at time 1:36835
+        ns  ns  ns  ns  ns  ns  ns  s   ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  s   
+bl      R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+10  P0  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+4   P1  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+13  P2  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+10  P3  0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   
+13  P4  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+12  P5  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+6   P6  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P7  0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   
+    P8  0   0   0   0   1   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P9  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+17  P10 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+15  P11 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P12 0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   
+    P13 0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   1   
+15  P14 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P15 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+5   P16 0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   1   0   0   0   0   
+10  P17 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+OSS: Master has acknowledged Process P13 releasing R10 at time 1:37330
+OSS: Unblocking Process P3, and granting it Resource R10
+OSS: Master granting P3 request R10 at time 1:37380
+OSS: Master has detected Process P3 requesting R19 at time 1:37416
+OSS: Blocking process P3 waiting on resource R19
+OSS: Master has detected Process P15 requesting R8 at time 1:38115
+OSS: Master granting P15 request R8 at time 1:38121
+OSS: Master has acknowledged Process P8 releasing R5 at time 1:39060
+OSS: Master has detected Process P7 requesting R16 at time 1:39606
+OSS: Master granting P7 request R16 at time 1:39608
+OSS: Master has acknowledged Process P7 releasing R16 at time 1:40243
+OSS: Master has detected Process P15 requesting R8 at time 1:40317
+OSS: Master granting P15 request R8 at time 1:40318
+OSS: Master has acknowledged Process P8 releasing R4 at time 1:41502
+OSS: Unblocking Process P1, and granting it Resource R4
+OSS: Master granting P1 request R4 at time 1:41512
+OSS: Master has detected Process P1 requesting R7 at time 1:41572
+OSS: Blocking process P1 waiting on resource R7
+OSS: Master has detected Process P9 requesting R19 at time 1:41871
+OSS: Blocking process P9 waiting on resource R19
+OSS: Master has detected Process P15 requesting R6 at time 1:42115
+OSS: Master granting P15 request R6 at time 1:42119
+OSS: Master has acknowledged Process P12 releasing R11 at time 1:42585
+OSS: Master has acknowledged Process P13 releasing R19 at time 1:43669
+OSS: Unblocking Process P3, and granting it Resource R19
+OSS: Master granting P3 request R19 at time 1:43681
+OSS: Unblocking Process P9, and granting it Resource R19
+OSS: Master granting P9 request R19 at time 1:43692
+OSS: Master has detected Process P3 requesting R17 at time 1:43729
+OSS: Blocking process P3 waiting on resource R17
+OSS: Master has detected Process P13 requesting R13 at time 1:44466
+OSS: Blocking process P13 waiting on resource R13
+OSS: Master has acknowledged Process P15 releasing R8 at time 1:46277
+OSS: Master has detected Process P7 requesting R5 at time 1:46665
+OSS: Blocking process P7 waiting on resource R5
+OSS: Master has acknowledged Process P9 releasing R19 at time 1:47701
+OSS: Master has detected Process P15 requesting R0 at time 1:50358
+OSS: Master granting P15 request R0 at time 1:50368
+OSS: Master has detected Process P12 requesting R18 at time 1:50836
+OSS: Master granting P12 request R18 at time 1:50841
+OSS: Master has acknowledged Process P8 releasing R5 at time 1:50966
+OSS: Unblocking Process P16, and granting it Resource R5
+OSS: Master granting P16 request R5 at time 1:51004
+OSS: Master has detected Process P16 requesting R9 at time 1:51031
+OSS: Master granting P16 request R9 at time 1:51036
+OSS: Master has detected Process P16 requesting R1 at time 1:51075
+OSS: Master granting P16 request R1 at time 1:51084
+OSS: Master has detected Process P8 requesting R14 at time 1:51115
+OSS: Master granting P8 request R14 at time 1:51125
+OSS: Master has acknowledged Process P16 releasing R1 at time 1:51155
+OSS: Master has detected Process P16 requesting R19 at time 1:51189
+OSS: Blocking process P16 waiting on resource R19
+OSS: Master has detected Process P9 requesting R19 at time 1:56552
+OSS: Blocking process P9 waiting on resource R19
+OSS: Master has detected Process P12 requesting R7 at time 1:57131
+OSS: Blocking process P12 waiting on resource R7
+OSS: Master has acknowledged Process P8 releasing R14 at time 1:58469
+OSS: Master has detected Process P8 requesting R14 at time 1:58524
+OSS: Master granting P8 request R14 at time 1:58531
+OSS: Master has detected Process P15 requesting R12 at time 1:59866
+OSS: Blocking process P15 waiting on resource R12
+OSS: Master has detected Process P8 requesting R14 at time 1:63676
+OSS: Master granting P8 request R14 at time 1:63678
+OSS: Master has detected Process P8 requesting R6 at time 1:65692
+OSS: Blocking process P8 waiting on resource R6
+OSS: Master running deadlock detection at 2:5592
+OSS: Process P0 is part of a deadlock
+OSS: Terminating process p0 at time 2:5592
+OSS: Released resources:  R17:1
+OSS: Unblocking Process P10, and granting it Resource R17
+OSS: Master granting P10 request R17 at time 2:5640
+OSS: Master running deadlock detection at 2:5710
+OSS: System not in deadlock
+OSS: Spawning a new Process P0 at time 2:15821
+OSS: Process P10 terminating normally at time 2:15863
+OSS: Terminating process p10 at time 2:15863
+OSS: Released resources:  R17:1
+OSS: Unblocking Process P3, and granting it Resource R17
+OSS: Master granting P3 request R17 at time 2:15871
+OSS: Spawning a new Process P10 at time 2:15924
+OSS: Process P3 terminating normally at time 2:16380
+OSS: Terminating process p3 at time 2:16380
+OSS: Released resources:  R10:1 R12:1 R17:1 R19:1
+OSS: Unblocking Process P17, and granting it Resource R10
+OSS: Master granting P17 request R10 at time 2:16398
+OSS: Unblocking Process P5, and granting it Resource R12
+OSS: Master granting P5 request R12 at time 2:16434
+        ns  ns  ns  ns  ns  ns  ns  s   ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  s   
+bl      R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+    P0  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+7   P1  0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+13  P2  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P3  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   1   
+13  P4  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P5  0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   
+6   P6  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+5   P7  0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   
+6   P8  0   0   0   0   0   0   0   0   0   0   0   0   0   0   2   0   0   0   0   0   
+19  P9  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P10 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+15  P11 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+7   P12 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   
+13  P13 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+15  P14 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+12  P15 1   0   0   0   0   0   1   0   1   0   0   0   0   0   0   0   0   0   0   0   
+19  P16 0   0   0   0   0   1   0   0   0   1   0   0   0   1   0   1   0   0   0   0   
+    P17 0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   
+OSS: Unblocking Process P9, and granting it Resource R19
+OSS: Master granting P9 request R19 at time 2:16472
+OSS: Spawning a new Process P3 at time 2:16525
+OSS: Process P9 terminating normally at time 2:16742
+OSS: Terminating process p9 at time 2:16742
+OSS: Released resources:  R19:1
+OSS: Unblocking Process P16, and granting it Resource R19
+OSS: Master granting P16 request R19 at time 2:16795
+OSS: Process P17 terminating normally at time 2:16813
+OSS: Terminating process p17 at time 2:16813
+OSS: Released resources:  R10:1
+OSS: Spawning a new Process P9 at time 2:16829
+OSS: Process P16 terminating normally at time 2:16841
+OSS: Terminating process p16 at time 2:16841
+OSS: Released resources:  R5:1 R9:1 R13:1 R15:1 R19:1
+OSS: Unblocking Process P7, and granting it Resource R5
+OSS: Master granting P7 request R5 at time 2:16881
+OSS: Unblocking Process P2, and granting it Resource R13
+OSS: Master granting P2 request R13 at time 2:16921
+OSS: Unblocking Process P11, and granting it Resource R15
+OSS: Master granting P11 request R15 at time 2:16944
+OSS: Spawning a new Process P16 at time 2:16960
+OSS: Process P5 terminating normally at time 2:16975
+OSS: Terminating process p5 at time 2:16975
+OSS: Released resources:  R12:1
+OSS: Unblocking Process P15, and granting it Resource R12
+OSS: Master granting P15 request R12 at time 2:16993
+OSS: Process P7 terminating normally at time 2:16996
+OSS: Terminating process p7 at time 2:16996
+OSS: Released resources:  R5:1 R7:1
+OSS: Unblocking Process P12, and granting it Resource R7
+OSS: Master granting P12 request R7 at time 2:17048
+OSS: Unblocking Process P1, and granting it Resource R7
+OSS: Master granting P1 request R7 at time 2:17082
+OSS: Master has detected Process P10 requesting R1 at time 2:17089
+OSS: Master granting P10 request R1 at time 2:17095
+OSS: Process P12 terminating normally at time 2:17101
+OSS: Terminating process p12 at time 2:17101
+OSS: Released resources:  R7:1 R18:1
+OSS: Spawning a new Process P5 at time 2:17144
+OSS: Process P11 terminating normally at time 2:17178
+OSS: Terminating process p11 at time 2:17178
+OSS: Released resources:  R15:1
+OSS: Unblocking Process P14, and granting it Resource R15
+OSS: Master granting P14 request R15 at time 2:17211
+OSS: Spawning a new Process P7 at time 2:17263
+OSS: Process P1 terminating normally at time 2:17271
+OSS: Terminating process p1 at time 2:17271
+OSS: Released resources:  R4:1 R7:1
+OSS: Spawning a new Process P1 at time 2:17362
+OSS: Process P2 terminating normally at time 2:17375
+OSS: Terminating process p2 at time 2:17375
+OSS: Released resources:  R13:1
+OSS: Unblocking Process P13, and granting it Resource R13
+OSS: Master granting P13 request R13 at time 2:17388
+OSS: Spawning a new Process P2 at time 2:17475
+OSS: Spawning a new Process P11 at time 2:17574
+OSS: Spawning a new Process P12 at time 2:17662
+OSS: Process P15 terminating normally at time 2:17720
+OSS: Terminating process p15 at time 2:17720
+OSS: Released resources:  R0:1 R6:1 R8:1 R12:1
+OSS: Unblocking Process P6, and granting it Resource R6
+OSS: Master granting P6 request R6 at time 2:17776
+OSS: Spawning a new Process P15 at time 2:17814
+OSS: Master has acknowledged Process P6 releasing R6 at time 2:17841
+OSS: Unblocking Process P8, and granting it Resource R6
+OSS: Master granting P8 request R6 at time 2:17850
+OSS: Process P14 terminating normally at time 2:17904
+OSS: Terminating process p14 at time 2:17904
+OSS: Released resources:  R15:1
+OSS: Spawning a new Process P14 at time 2:17949
+OSS: Process P13 terminating normally at time 2:18027
+OSS: Terminating process p13 at time 2:18027
+OSS: Released resources:  R13:1
+OSS: Unblocking Process P4, and granting it Resource R13
+OSS: Master granting P4 request R13 at time 2:18066
+OSS: Spawning a new Process P13 at time 2:18125
+OSS: Master has detected Process P15 requesting R0 at time 2:18219
+OSS: Master granting P15 request R0 at time 2:18222
+OSS: Spawning a new Process P17 at time 2:18269
+OSS: Process P6 terminating normally at time 2:18304
+OSS: Terminating process p6 at time 2:18304
+OSS: Released resources: 
+OSS: Spawning a new Process P6 at time 2:18409
+OSS: Master has detected Process P17 requesting R9 at time 2:18504
+OSS: Master granting P17 request R9 at time 2:18507
+OSS: Process P4 terminating normally at time 2:18821
+OSS: Terminating process p4 at time 2:18821
+OSS: Released resources:  R13:1
+OSS: Process P8 terminating normally at time 2:18836
+OSS: Terminating process p8 at time 2:18836
+OSS: Released resources:  R6:1 R14:2
+OSS: Spawning a new Process P4 at time 2:18926
+OSS: Spawning a new Process P8 at time 2:19071
+OSS: Master has detected Process P1 requesting R5 at time 2:19212
+OSS: Master granting P1 request R5 at time 2:19213
+OSS: Master has detected Process P3 requesting R4 at time 2:20196
+OSS: Master granting P3 request R4 at time 2:20200
+OSS: Master has detected Process P7 requesting R3 at time 2:21664
+OSS: Master granting P7 request R3 at time 2:21673
+OSS: Master has detected Process P11 requesting R3 at time 2:22583
+OSS: Blocking process P11 waiting on resource R3
+OSS: Master has detected Process P12 requesting R10 at time 2:22742
+OSS: Master granting P12 request R10 at time 2:22750
+        ns  ns  ns  ns  ns  ns  ns  s   ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  s   
+bl      R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+    P0  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P1  0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P2  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P3  0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P4  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P5  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P6  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P7  0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P8  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P9  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P10 0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+3   P11 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P12 0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   
+    P13 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P14 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P15 1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P16 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P17 0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   
+OSS: Master has detected Process P0 requesting R15 at time 2:23277
+OSS: Master granting P0 request R15 at time 2:23282
+OSS: Master has detected Process P2 requesting R1 at time 2:23538
+OSS: Blocking process P2 waiting on resource R1
+OSS: Master has acknowledged Process P15 releasing R0 at time 2:24281
+OSS: Master has detected Process P8 requesting R18 at time 2:24514
+OSS: Master granting P8 request R18 at time 2:24524
+OSS: Master has detected Process P16 requesting R15 at time 2:24558
+OSS: Blocking process P16 waiting on resource R15
+OSS: Master has detected Process P6 requesting R5 at time 2:24795
+OSS: Blocking process P6 waiting on resource R5
+OSS: Master has acknowledged Process P10 releasing R1 at time 2:25646
+OSS: Unblocking Process P2, and granting it Resource R1
+OSS: Master granting P2 request R1 at time 2:25696
+OSS: Master has acknowledged Process P17 releasing R9 at time 2:25724
+OSS: Master has detected Process P14 requesting R9 at time 2:26065
+OSS: Master granting P14 request R9 at time 2:26075
+OSS: Master has detected Process P15 requesting R15 at time 2:26078
+OSS: Blocking process P15 waiting on resource R15
+OSS: Master has acknowledged Process P1 releasing R5 at time 2:26151
+OSS: Unblocking Process P6, and granting it Resource R5
+OSS: Master granting P6 request R5 at time 2:26195
+OSS: Master has detected Process P5 requesting R2 at time 2:26222
+OSS: Master granting P5 request R2 at time 2:26232
+OSS: Master has detected Process P9 requesting R1 at time 2:26490
+OSS: Blocking process P9 waiting on resource R1
+OSS: Master has acknowledged Process P3 releasing R4 at time 2:26885
+OSS: Master has detected Process P5 requesting R6 at time 2:26899
+OSS: Master granting P5 request R6 at time 2:26903
+OSS: Master has acknowledged Process P0 releasing R15 at time 2:27066
+OSS: Unblocking Process P15, and granting it Resource R15
+OSS: Master granting P15 request R15 at time 2:27111
+OSS: Master has detected Process P13 requesting R10 at time 2:27487
+OSS: Blocking process P13 waiting on resource R10
+OSS: Master has acknowledged Process P12 releasing R10 at time 2:28440
+OSS: Unblocking Process P13, and granting it Resource R10
+OSS: Master granting P13 request R10 at time 2:28456
+OSS: Master has detected Process P4 requesting R2 at time 2:28668
+OSS: Blocking process P4 waiting on resource R2
+OSS: Master has detected Process P17 requesting R17 at time 2:29334
+OSS: Master granting P17 request R17 at time 2:29338
+OSS: Master has acknowledged Process P7 releasing R3 at time 2:29594
+OSS: Unblocking Process P11, and granting it Resource R3
+OSS: Master granting P11 request R3 at time 2:29614
+OSS: Master has acknowledged Process P8 releasing R18 at time 2:29622
+OSS: Master has detected Process P1 requesting R2 at time 2:30232
+OSS: Blocking process P1 waiting on resource R2
+OSS: Master has detected Process P3 requesting R12 at time 2:30779
+OSS: Master granting P3 request R12 at time 2:30787
+OSS: Master has detected Process P11 requesting R14 at time 2:30819
+OSS: Master granting P11 request R14 at time 2:30821
+OSS: Master has detected Process P0 requesting R4 at time 2:31462
+OSS: Master granting P0 request R4 at time 2:31470
+OSS: Master has acknowledged Process P15 releasing R15 at time 2:31531
+OSS: Unblocking Process P16, and granting it Resource R15
+OSS: Master granting P16 request R15 at time 2:31540
+OSS: Master has acknowledged Process P16 releasing R15 at time 2:31550
+OSS: Master has acknowledged Process P6 releasing R5 at time 2:32618
+OSS: Master has detected Process P2 requesting R16 at time 2:32722
+OSS: Master granting P2 request R16 at time 2:32730
+OSS: Master has acknowledged Process P17 releasing R17 at time 2:33508
+OSS: Master has detected Process P10 requesting R0 at time 2:34276
+OSS: Master granting P10 request R0 at time 2:34281
+OSS: Master has detected Process P10 requesting R4 at time 2:35115
+OSS: Blocking process P10 waiting on resource R4
+OSS: Master has detected Process P5 requesting R17 at time 2:35552
+OSS: Master granting P5 request R17 at time 2:35562
+OSS: Master has detected Process P8 requesting R1 at time 2:35578
+OSS: Blocking process P8 waiting on resource R1
+OSS: Master has acknowledged Process P5 releasing R17 at time 2:35716
+OSS: Master has acknowledged Process P0 releasing R4 at time 2:35795
+OSS: Unblocking Process P10, and granting it Resource R4
+OSS: Master granting P10 request R4 at time 2:35849
+OSS: Master has detected Process P14 requesting R5 at time 2:35908
+OSS: Master granting P14 request R5 at time 2:35917
+        ns  ns  ns  ns  ns  ns  ns  s   ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  s   
+bl      R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+    P0  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+2   P1  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P2  0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   
+    P3  0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   
+2   P4  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P5  0   0   1   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P6  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P7  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+1   P8  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+1   P9  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P10 1   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P11 0   0   0   1   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   
+    P12 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P13 0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   
+    P14 0   0   0   0   0   1   0   0   0   1   0   0   0   0   0   0   0   0   0   0   
+    P15 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P16 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P17 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+OSS: Master has acknowledged Process P2 releasing R16 at time 2:35981
+OSS: Master has acknowledged Process P14 releasing R5 at time 2:36047
+OSS: Master has acknowledged Process P11 releasing R14 at time 2:36125
+OSS: Master has detected Process P13 requesting R13 at time 2:36607
+OSS: Master granting P13 request R13 at time 2:36612
+OSS: Master has detected Process P7 requesting R1 at time 2:37762
+OSS: Blocking process P7 waiting on resource R1
+OSS: Master has detected Process P12 requesting R2 at time 2:37780
+OSS: Blocking process P12 waiting on resource R2
+OSS: Master has detected Process P15 requesting R2 at time 2:37810
+OSS: Blocking process P15 waiting on resource R2
+OSS: Master has acknowledged Process P10 releasing R4 at time 2:38764
+OSS: Master has detected Process P16 requesting R12 at time 2:39226
+OSS: Blocking process P16 waiting on resource R12
+OSS: Master has detected Process P6 requesting R1 at time 2:39316
+OSS: Blocking process P6 waiting on resource R1
+OSS: Master has acknowledged Process P11 releasing R3 at time 2:39443
+OSS: Master has acknowledged Process P5 releasing R2 at time 2:40351
+OSS: Unblocking Process P4, and granting it Resource R2
+OSS: Master granting P4 request R2 at time 2:40377
+OSS: Master has acknowledged Process P10 releasing R0 at time 2:40385
+OSS: Master has acknowledged Process P4 releasing R2 at time 2:40478
+OSS: Unblocking Process P1, and granting it Resource R2
+OSS: Master granting P1 request R2 at time 2:40528
+OSS: Master has detected Process P17 requesting R4 at time 2:40561
+OSS: Master granting P17 request R4 at time 2:40563
+OSS: Master has acknowledged Process P1 releasing R2 at time 2:40616
+OSS: Unblocking Process P12, and granting it Resource R2
+OSS: Master granting P12 request R2 at time 2:40662
+OSS: Master has detected Process P3 requesting R18 at time 2:40675
+OSS: Master granting P3 request R18 at time 2:40683
+OSS: Master has detected Process P4 requesting R4 at time 2:40689
+OSS: Blocking process P4 waiting on resource R4
+OSS: Master has acknowledged Process P13 releasing R10 at time 2:40721
+OSS: Master has detected Process P2 requesting R1 at time 2:42048
+OSS: Master granting P2 request R1 at time 2:42058
+OSS: Master has detected Process P5 requesting R1 at time 2:42507
+OSS: Blocking process P5 waiting on resource R1
+OSS: Master has detected Process P10 requesting R13 at time 2:43294
+OSS: Blocking process P10 waiting on resource R13
+OSS: Master has detected Process P3 requesting R7 at time 2:43824
+OSS: Master granting P3 request R7 at time 2:43829
+OSS: Master has acknowledged Process P17 releasing R4 at time 2:43869
+OSS: Unblocking Process P4, and granting it Resource R4
+OSS: Master granting P4 request R4 at time 2:43906
+OSS: Master has acknowledged Process P4 releasing R4 at time 2:43972
+OSS: Master has detected Process P4 requesting R13 at time 2:44053
+OSS: Blocking process P4 waiting on resource R13
+OSS: Master has detected Process P0 requesting R9 at time 2:44898
+OSS: Blocking process P0 waiting on resource R9
+OSS: Master has detected Process P11 requesting R13 at time 2:45177
+OSS: Blocking process P11 waiting on resource R13
+OSS: Master has acknowledged Process P14 releasing R9 at time 2:45663
+OSS: Unblocking Process P0, and granting it Resource R9
+OSS: Master granting P0 request R9 at time 2:45714
+OSS: Master has acknowledged Process P0 releasing R9 at time 2:47193
+OSS: Master has detected Process P13 requesting R16 at time 2:47476
+OSS: Master granting P13 request R16 at time 2:47485
+OSS: Master has detected Process P12 requesting R15 at time 2:47730
+OSS: Master granting P12 request R15 at time 2:47733
+OSS: Master has detected Process P14 requesting R18 at time 2:47826
+OSS: Blocking process P14 waiting on resource R18
+OSS: Master has detected Process P1 requesting R18 at time 2:48129
+OSS: Blocking process P1 waiting on resource R18
+OSS: Master has detected Process P2 requesting R18 at time 2:48321
+OSS: Blocking process P2 waiting on resource R18
+OSS: Master has detected Process P12 requesting R13 at time 2:49481
+OSS: Blocking process P12 waiting on resource R13
+OSS: Master has detected Process P17 requesting R10 at time 2:49557
+OSS: Master granting P17 request R10 at time 2:49560
+OSS: Master has acknowledged Process P17 releasing R10 at time 2:50112
+OSS: Master has detected Process P13 requesting R6 at time 2:50773
+OSS: Blocking process P13 waiting on resource R6
+OSS: Master has acknowledged Process P3 releasing R18 at time 2:53430
+OSS: Unblocking Process P14, and granting it Resource R18
+OSS: Master granting P14 request R18 at time 2:53466
+OSS: Master has detected Process P17 requesting R0 at time 2:53551
+OSS: Master granting P17 request R0 at time 2:53557
+OSS: Master has detected Process P0 requesting R12 at time 2:53668
+OSS: Blocking process P0 waiting on resource R12
+OSS: Master has detected Process P14 requesting R3 at time 2:53969
+OSS: Master granting P14 request R3 at time 2:53970
+OSS: Master has acknowledged Process P3 releasing R12 at time 2:54741
+OSS: Unblocking Process P16, and granting it Resource R12
+OSS: Master granting P16 request R12 at time 2:54795
+OSS: Master has detected Process P16 requesting R2 at time 2:54812
+OSS: Blocking process P16 waiting on resource R2
+OSS: Master has acknowledged Process P17 releasing R0 at time 2:60704
+OSS: Master has detected Process P17 requesting R17 at time 2:60875
+OSS: Master granting P17 request R17 at time 2:60882
+OSS: Master has acknowledged Process P14 releasing R3 at time 2:63805
+OSS: Master has detected Process P3 requesting R10 at time 2:64320
+OSS: Master granting P3 request R10 at time 2:64330
+OSS: Master has acknowledged Process P17 releasing R17 at time 2:65501
+OSS: Master has acknowledged Process P3 releasing R7 at time 2:67625
+OSS: Master has detected Process P14 requesting R5 at time 2:69598
+OSS: Master granting P14 request R5 at time 2:69606
+        ns  ns  ns  ns  ns  ns  ns  s   ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  ns  s   
+bl      R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+12  P0  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+18  P1  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+18  P2  0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+    P3  0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   
+13  P4  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+1   P5  0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   
+1   P6  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+1   P7  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+1   P8  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+1   P9  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+13  P10 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+13  P11 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+13  P12 0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   
+6   P13 0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   1   0   0   0   
+    P14 0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   
+2   P15 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+2   P16 0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   
+    P17 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+OSS: Master has detected Process P17 requesting R10 at time 2:72398
+OSS: Blocking process P17 waiting on resource R10
+OSS: Master has acknowledged Process P3 releasing R10 at time 2:72497
+OSS: Unblocking Process P17, and granting it Resource R10
+OSS: Master granting P17 request R10 at time 2:72545
+OSS: Master has detected Process P3 requesting R15 at time 2:73538
+OSS: Blocking process P3 waiting on resource R15
+OSS: Master has acknowledged Process P14 releasing R5 at time 2:78485
+OSS: Master has detected Process P17 requesting R4 at time 2:78972
+OSS: Master granting P17 request R4 at time 2:78978
+OSS: Master has detected Process P17 requesting R2 at time 2:82964
+OSS: Blocking process P17 waiting on resource R2
+OSS: Master has acknowledged Process P14 releasing R18 at time 2:84700
+OSS: Unblocking Process P2, and granting it Resource R18
+OSS: Master granting P2 request R18 at time 2:84748
+OSS: Master has acknowledged Process P2 releasing R18 at time 2:84782
+OSS: Master has acknowledged Process P2 releasing R1 at time 2:84818
+OSS: Master has detected Process P2 requesting R12 at time 2:84862
+OSS: Blocking process P2 waiting on resource R12
+OSS: Master has detected Process P14 requesting R4 at time 2:85465
+OSS: Blocking process P14 waiting on resource R4
+OSS: Master running deadlock detection at 3:2026
+OSS: Process P16 is part of a deadlock
+OSS: Terminating process p16 at time 3:2026
+OSS: Released resources:  R12:1
+OSS: Unblocking Process P0, and granting it Resource R12
+OSS: Master granting P0 request R12 at time 3:2054
+OSS: Master running deadlock detection at 3:2113
+OSS: System not in deadlock
+OSS: Spawning a new Process P16 at time 3:12258
+OSS: Master has detected Process P0 requesting R19 at time 3:12258
+OSS: Master granting P0 request R19 at time 3:12260
+OSS: Master has detected Process P0 requesting R16 at time 3:12302
+OSS: Blocking process P0 waiting on resource R16
+OSS: Master has detected Process P16 requesting R1 at time 3:14312
+OSS: Blocking process P16 waiting on resource R1
+OSS: Master running deadlock detection at 4:5173
+OSS: Process P0 is part of a deadlock
+OSS: Terminating process p0 at time 4:5173
+OSS: Released resources:  R12:1 R19:1
+OSS: Master running deadlock detection at 4:5243
+OSS: System not in deadlock
+OSS: Spawning a new Process P0 at time 4:15365
+OSS: Master has detected Process P0 requesting R14 at time 4:24459
+OSS: Master granting P0 request R14 at time 4:24464
+OSS: Master has detected Process P0 requesting R5 at time 4:32621
+OSS: Master granting P0 request R5 at time 4:32627
+OSS: Master has acknowledged Process P0 releasing R5 at time 4:35288
+OSS: Master has detected Process P0 requesting R5 at time 4:44377
+OSS: Master granting P0 request R5 at time 4:44384
+OSS: Master has detected Process P0 requesting R18 at time 4:50216
+OSS: Master granting P0 request R18 at time 4:50223
+OSS: Terminating oss=========================================
+OSS: Granted 169 resources
+OSS: Processes terminated normally: 33
+OSS: Processes killed by deadlock recovery: 4
+OSS: Deadlock recoveries run: 4
+OSS: Closing log at time 4:55009
